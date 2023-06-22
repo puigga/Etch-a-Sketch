@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-container {
+    width: 800px;
+    height: 800px;
+    display: grid;
+    border: 1px solid black;
+}
+
+.ui-container {
+    background-color: lightblue;
+    width: 800px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
